@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Medicines>
+  <Medicine>
+    <Name>Лекарство 1</Name>
+    <Form>Таблетки</Form>
+    <Quantity>10</Quantity>
+    <Unit>шт</Unit>
+    <Dosage>500 мг</Dosage>
+    <Price>1000,00</Price>
+    <Manufacturer>Производитель 1</Manufacturer>
+  </Medicine>
+  <Medicine>
+    <Name>Лекарство 2</Name>
+    <Form>Капсулы</Form>
+    <Quantity>10</Quantity>
+    <Unit>шт</Unit>
+    <Dosage>250 мг</Dosage>
+    <Price>500,00</Price>
+    <Manufacturer>Производитель 2</Manufacturer>
+  </Medicine>
+  <Medicine>
+    <Name>Анальгин</Name>
+    <Form>Таблетки</Form>
+    <Quantity>20</Quantity>
+    <Unit>шт</Unit>
+    <Dosage>500 мг</Dosage>
+    <Price>25,00</Price>
+    <Manufacturer>ОктаФарм</Manufacturer>
+  </Medicine>
+</Medicines>

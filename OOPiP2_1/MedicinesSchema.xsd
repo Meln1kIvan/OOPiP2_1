@@ -1,0 +1,33 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Medicines">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Medicine">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="Form" type="DosageForm"/>
+							<xs:element name="Quantity" type="xs:int"/>
+							<xs:element name="Unit" type="xs:string"/>
+							<xs:element name="Dosage" type="xs:string"/>
+							<xs:element name="Price" type="xs:string"/>
+							<xs:element name="Manufacturer" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="DosageForm">
+		<xs:restriction base="xs:tring">
+			<xs:enumeration value="Подагра"></xs:enumeration>
+			<xs:enumeration value="Рак"></xs:enumeration>
+			<xs:enumeration value="Изжога"></xs:enumeration>
+			<xs:enumeration value="Синусит"></xs:enumeration>
+			<xs:enumeration value="Диабет"></xs:enumeration>
+			<xs:enumeration value="Кифоз"></xs:enumeration>
+			<xs:enumeration value="ВИЧ"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
